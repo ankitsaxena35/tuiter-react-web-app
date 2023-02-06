@@ -1,0 +1,154 @@
+.wd-body{
+    background-color: black;
+}
+
+.wd-bookmark-main{
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: rgb(47, 51, 54);
+    padding-bottom: 12px;
+}
+
+.wd-bookmark-p-margin{
+    margin: 0px;
+}
+
+.wd-bookmark-title {
+    padding-left: 16px;
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.wd-user-handle{
+    color:rgb(47, 51, 54);
+    font-size: 13px;
+    padding-left: 16px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding-bottom: 12px;
+}
+
+
+
+.wd-profile-image{
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+
+}
+
+.wd-post{
+    display: grid;
+    grid-template-columns: 5% 95%;
+    border-bottom-style: solid;
+    color: rgb(47, 51, 54);
+}
+
+
+
+.wd-post-col1{
+    padding-top:12px;
+    padding-left:16px;
+}
+
+.wd-post-col2{
+    padding-left:12px;
+}
+
+.wd-author{
+    display:inline-flex;
+    padding-top: 12px;
+}
+
+.wd-tuit-padding{
+    padding-bottom:12px;
+}
+
+.wd-pic{
+    border-right-color: rgb(47, 51, 54);
+    border-left-color: rgb(47, 51, 54);
+    border-right-style: solid;
+    border-radius: 10px 10px 0px 0px;
+    width: 504px;
+    border-left-style: solid;
+}
+.wd-post-link{
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-right-style: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 504px;
+}
+
+.wd-reaction{
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 504px;
+    padding-bottom: 12px;
+}
+
+.wd-reaction-inline{
+    display: inline-flex;
+}
+
+.wd-author-font-size{
+    font-size: 15px;
+}
+
+.wd-author-tuit-color{
+    color: white;
+}
+
+.wd-author-handle-color{
+    color: rgb(47, 51, 54);
+}
+
+.wd-author-padding-left{
+    padding-right:4px;
+}
+
+.wd-p-margin-zero{
+    margin:0px;
+}
+
+.wd-width{
+    width: 506px;
+}
+
+.wd-tuit-pic {
+    border-color: rgb(47, 51, 54);
+    height:264px;
+    width:504px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-radius: 10px 10px 0px 0px;
+
+
+
+}
+
+.wd-padding-post-text{
+    padding:12px;
+    width: 482px;
+}
+
+.wd-padding-icon-reaction{
+    padding-right:12px;
+}
+
+.wd-icon-red-reaction{
+    color:red;
+}
+
+.wd-pic-bottom-border{
+    border-color: rgb(47, 51, 54);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
