@@ -206,7 +206,17 @@
     position: relative;
 }
 
-
+.wd-bottom-left {
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    margin: 0px;
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
 
 .wd-follow-font-size{
     font-size: 12px;
@@ -230,21 +240,21 @@
     border-right-style: solid;
     border-width: 1px;
 
-    border-color: grey;
+    border-color: rgb(105,105,105);
 }
 
 .wd-margin-tuit-image{
     margin-left: 13px;
 }
 
-.wd-search-color{
-    background-color: black;
+.wd-search-clr{
+    background-color: #1c1f23;
 }
 
-.wd-current-selector-link{
+.wd-border-link{
     border-bottom-style: solid;
     border-width: 5px;
-    border-color: dodgerblue;
+    border-color: rgb(30,144,255);
 }
 
 .wd-mr{
@@ -252,14 +262,6 @@
     margin-left: 4px;
 }
 
-.wd-bottom-left {
-    color: white;
-    font-size: 30px;
-    font-style: bold;
-    margin: 0px;
-    z-index: 2;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+.borderless {
+    border-top: 0 none;
 }

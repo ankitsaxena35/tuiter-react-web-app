@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>Explore Title</title>
     <link href="index.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -14,33 +16,38 @@
     <div class="row mt-2">
         <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-2 col-xxl-2">
             <div class="list-group">
-                <span class="list-group-item bg-dark"><i class="fab fa-twitter text-white"></i></span>
-                <a href="#" class="list-group-item list-group-item-action bg-dark"><i
+                <span class="list-group-item bg-dark border-0"><i class="fab fa-twitter text-white"></i></span>
+
+                <a href="#" class="list-group-item list-group-item-action bg-dark border-0"><i
                         class="fa fa-home text-white"></i><span
                         class="d-none d-xl-inline-block wd-padding-left-side text-white">Home</span></a>
-                <a href="#" class="list-group-item list-group-item-action active" aria-current="true"><i
+                <a href="#" class="bg-dark list-group-item list-group-item-action fw-bold border-0" aria-current="true"><i
                         class="fa fa-solid fa-hashtag text-white"></i><span
                         class="d-none d-xl-inline-block wd-padding-left-side text-white">Explore</span></a>
-                <a href="#" class="bg-dark list-group-item list-group-item-action"><i
+
+
+                <a href="#" class="bg-dark list-group-item list-group-item-action border-0"><i
                         class="fa fa-solid fa-bell text-white"></i>
                     <span class="d-none d-xl-inline-block wd-padding-left-side text-white">Notifications</span></a>
-                <a href="#" class="bg-dark list-group-item list-group-item-action"><i
+                <a href="#" class="bg-dark list-group-item list-group-item-action border-0"><i
                         class="fa fa-solid fa-envelope text-white"></i>
                     <span class="d-none d-xl-inline-block wd-padding-left-side text-white">Messages</span></a>
-                <a href="#" class="bg-dark list-group-item list-group-item-action"><i
+                <a href="#" class="bg-dark list-group-item list-group-item-action border-0"><i
                         class="fa fa-solid fa-bookmark text-white"></i>
                     <span class="d-none d-xl-inline-block wd-padding-left-side text-white">Bookmarks</span></a>
-                <a href="#" class="bg-dark list-group-item list-group-item-action"><i
+                <a href="#" class="bg-dark list-group-item list-group-item-action border-0"><i
                         class="fa fa-solid fa-list text-white"></i><span
-                        class="d-none d-xl-inline-block wd-padding-left-side text-white">Lists</span></a>
-                <a href="#" class="bg-dark list-group-item list-group-item-action"><i
+                        class="d-none d-xl-inline-block wd-padding-left-side text-white border-0">Lists</span></a>
+                <a href="#" class="bg-dark list-group-item list-group-item-action border-0"><i
                         class="fa fa-solid fa-user text-white"></i>
-                    <span class="d-none d-xl-inline-block wd-padding-left-side text-white">Profile</span></a>
-                <a href="#" class="bg-dark wd-padding-left list-group-item list-group-item-action"><span
+                    <span class="d-none d-xl-inline-block wd-padding-left-side text-white border-0">Profile</span></a>
+
+
+                <a href="#" class="bg-dark wd-padding-left list-group-item list-group-item-action border-0"><span
                         class="fa-stack fa-1x wd-margin-more-negative text-white">
                             <i class="fas fa-circle fa-stack-1x wd-more-size text-white"></i>
                             <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse text-black"></i>
-                        </span> <span class="d-none d-xl-inline-block text-white">More</span></a>
+                        </span> <span class="d-none d-xl-inline-block text-white ">More</span></a>
                 <button type="" class="btn btn-primary mt-2 rounded-pill">Tweet</button>
             </div>
 
@@ -48,11 +55,11 @@
         <div class="col-11 col-sm-11 col-md-11 col-lg-8 col-xl-7 col-xxl-7 wd-border px-0">
             <div class="wd-input-icon">
                 <i class="wd-tuit-search-icon fa fa-search" aria-hidden="true"></i>
-                <input class="rounded-pill wd-input-field wd-mr wd-search-bar-width wd-search-color" type="text" placeholder="Search Tuiter">
+                <input class="rounded-pill wd-input-field wd-mr wd-search-bar-width wd-search-clr" type="text" placeholder="Search Tuiter">
                 <i class="fa fa-cog wd-setting-icon text-white" aria-hidden="true"></i>
             </div>
             <ul class="nav nav-pills d-flex justify-content-around">
-                <li class="nav-item wd-current-selector-link">
+                <li class="nav-item wd-border-link">
                     <a class="nav-link text-white" href="for-you.html">For You</a>
                 </li>
                 <li class="nav-item">
@@ -70,74 +77,77 @@
             </ul>
             <div>
                 <div class="card px-0">
-                    <img class="card-img-top wd-container" src="spacexStarship.webp" width="100%">
+
+                    <img class="card-img-top wd-container" src="australian-open-2023-tournament-image.jpg" width="100%">
                     <div class="card-body wd-bottom-left text-white">
-                        <strong>SpaceX's Starship</strong>
+                        <p class="wd-text mb-1">Tennis Tournament <span>&#183;</span> Live</p>
+                        <strong>Australian Open 2023</strong>
                     </div>
+
                 </div>
+
                 <ul class="list-group">
-                    <li class="list-group-item bg-dark">
+                    <li class="list-group-item border-right-0 border-left-0 border-bottom-0 mt-1 bg-dark">
                         <div class="row">
                             <div class="col-11 d-flex flex-column">
-                                <small class="text-muted">Web Development</small>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item text-white"><strong>ReactJS</strong></li>
-                                    <li class="list-inline-item text-white"><i class="fa fa-check-circle"></i></li>
-                                    <li class="list-inline-item"><small class="text-muted">- 2h</small></li>
-                                </ul>
-                                <span class="text-white"><strong>React.js is a component based front end library
-                                            that makes it very
-                                            easy to build Single Page Applications or SPAs</strong></span>
+                                <small class="text-muted">Politics &#x2022; Trending</small>
+                                <span class="text-white"><strong>Seizures</strong></span>
+                                <small class="text-muted">4953 Tweets</small>
                             </div>
                             <div class="col-1">
-                                <img class="wd-tuit-image-icon wd-margin-tuit-image" src="reactJs.jpeg">
+                                <i class="fas fa-ellipsis-h text-secondary"></i>
                             </div>
                         </div>
                     </li>
-                    <li class="list-group-item bg-dark">
+                    <li class="list-group-item border-0 bg-dark">
                         <div class="row">
-                            <div class="col-11 d-flex flex-column">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item text-white"><strong>JavaScript</strong></li>
-                                    <li class="list-inline-item text-white"><i class="fa fa-check-circle"></i></li>
-                                    <li class="list-inline-item"><small class="text-muted">- 2h</small></li>
-                                </ul>
-                                <span class="text-white"><strong>JavaScript is programming language that can run on
-                                            browsers as
-                                            well as
-                                            desktops</strong></span>
-                                <small class="text-muted">123K Tweets</small>
-                            </div>
-                            <div class="col-1">
-                                <img class="wd-tuit-image-icon wd-margin-tuit-image" src="js.png">
+                            <div class="col-12 d-flex flex-column">
+                                <span class="text-white"><strong>#InfinityPool</strong></span>
+
+                                <small class="text-muted">See the electrifying thriller Infinity Pool in theaters-if you dare</small>
+
+                                <small class="text-muted"><i class="fa-solid fa-square-up-right"></i> Promoted by NEON</small>
                             </div>
                         </div>
                     </li>
-                    <li class="list-group-item bg-dark">
+                    <li class="list-group-item border-0 bg-dark">
                         <div class="row">
                             <div class="col-11 d-flex flex-column">
-                                <small class="text-muted">Web Development</small>
-                                <span class="text-white"><strong>jQuery</strong></span>
-                                <small class="text-muted">123K Tweets</small>
+                                <small class="text-muted">Sports &#x2022; Trending</small>
+                                <span class="text-white"><strong>RIP Bean</strong></span>
+                                <small class="text-muted">18K Tweets</small>
                             </div>
                             <div class="col-1">
-                                <img class="wd-tuit-image-icon wd-margin-tuit-image" src="jquery.jpeg">
+                                <i class="fas fa-ellipsis-h text-secondary"></i>
                             </div>
                         </div>
                     </li>
-                    <li class="list-group-item bg-dark">
-                        <div class="row d-flex justify-content-between">
+                    <li class="list-group-item border-0 bg-dark">
+                        <div class="row">
                             <div class="col-11 d-flex flex-column">
-                                <small class="text-muted">Web Development</small>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item text-white"><strong>NodeJS</strong></li>
-                                    <li class="list-inline-item text-white"><i class="fa fa-check-circle"></i></li>
-                                    <li class="list-inline-item"><small class="text-muted">- 2h</small></li>
-                                </ul>
-                                <small class="text-muted">123K Tweets</small>
+                                <small class="text-muted">Politics &#x2022; Trending</small>
+
+                                <span class="text-white"><strong>Durham</strong></span>
+
+                                <small class="text-muted">Trending with <a href="#" class="text-decoration-none">Barr</a>
+                                    ,<a href="#" class="text-decoration-none">Barr</a></small>
                             </div>
                             <div class="col-1">
-                                <img class="wd-tuit-image-icon wd-margin-tuit-image" src="node.png">
+                                <i class="fas fa-ellipsis-h text-secondary"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item border-0 bg-dark">
+                        <div class="row">
+                            <div class="col-11 d-flex flex-column">
+                                <small class="text-muted">Trending in Business and Finance</small>
+
+                                <span class="text-white"><strong>#DirectedEvolution</strong></span>
+
+                                <small class="text-muted">172K Tweets</small>
+                            </div>
+                            <div class="col-1">
+                                <i class="fas fa-ellipsis-h text-secondary"></i>
                             </div>
                         </div>
                     </li>
@@ -151,10 +161,11 @@
                 <span class="list-group-item bg-dark">
                         <div class="row align-items-center">
                             <div class="col-2">
-                                <img class="wd-follow-image-icon float-start" src="java.png">
+                                <img class="wd-follow-image-icon float-start" src="../java.png">
                             </div>
                             <div class="col-6">
                                 <div class="row">
+
                                     <span><strong class="wd-follow-font-size text-white">Java </strong><i
                                             class="fa fa-check-circle text-white"></i></span>
                                 </div>
@@ -172,7 +183,7 @@
                 <span class="list-group-item bg-dark">
                         <div class="row align-items-center">
                             <div class="col-2">
-                                <img class="wd-follow-image-icon" src="relativity.jpeg">
+                                <img class="wd-follow-image-icon" src="../relativity.jpeg">
                             </div>
                             <div class="col-6 float-start">
                                 <div class="row">
@@ -191,7 +202,7 @@
                 <span class="list-group-item bg-dark">
                         <div class="row align-items-center">
                             <div class="col-2">
-                                <img class="wd-follow-image-icon" src="Virgin_Galactic.png">
+                                <img class="wd-follow-image-icon" src="../Virgin_Galactic.png">
                             </div>
                             <div class="col-6 d-flex flex-column">
                                 <div class="row">
@@ -200,6 +211,7 @@
                                 </div>
                                 <div class="row">
                                     <small class="text-muted">@virgingalactic</small>
+                                    <small class="text-muted"><i class="fa-solid fa-square-up-right"></i> Promoted</small>
                                 </div>
 
                             </div>
@@ -208,43 +220,9 @@
                             </div>
                         </div>
                     </span>
-                <span class="list-group-item bg-dark">
-                        <div class="row align-items-center">
-                            <div class="col-2">
-                                <img class="wd-follow-image-icon float-left" src="nasa.jpeg">
-                            </div>
-                            <div class="col-6 d-flex flex-column">
-                                <div class="row">
-                                    <span class="text-white wd-follow-font-size"><strong>NASA </strong><i
-                                            class="fa fa-check-circle text-white"></i></span>
-                                </div>
-                                <div class="row">
-                                    <small class="text-muted">@NASA</small>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <button type="" class="btn btn-light btn-sm rounded-pill float-end">Follow</button>
-                            </div>
-                        </div>
-                    </span>
-                <span class="list-group-item bg-dark">
-                        <div class="row align-items-center">
-                            <div class="col-2">
-                                <img class="wd-follow-image-icon float-left" src="tesla.webp">
-                            </div>
-                            <div class="col-6 float-start">
-                                <div class="row">
-                                    <span class="text-white wd-follow-font-size"><strong>Tesla </strong><i
-                                            class="fa fa-check-circle text-white"></i></span>
-                                </div>
-                                <div class="row">
-                                    <small class="text-muted">@Tesla</small>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <button type="button"
-                                        class="btn btn-light btn-sm rounded-pill btn-block float-end">Follow</button>
-                            </div>
+                <span class="list-group-item border-0 bg-dark rounded-3">
+                        <div class="row">
+                            <span><a href="#" class="text-decoration-none"> Show More </a></span>
                         </div>
                     </span>
             </div>
