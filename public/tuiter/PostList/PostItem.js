@@ -5,7 +5,7 @@ const PostItem = (post) => {
                 <img class="rounded-circle img-fluid mx-auto d-block " src="${post.handlerImage}">
             </div>
             <div class ="col-11">
-                <div class="row>
+                <div class="row">
                 <span class="text-white"><strong class="text-white  ">${post.handlerName}</strong></span>
                 <i class="fa-solid fa-circle-check text-white"></i>
                 <span class="text-muted">${post.handle}</span>

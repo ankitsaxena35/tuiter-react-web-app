@@ -6,7 +6,7 @@ const NavigationSidebar = (active) => {
                 ${active === 'home' ? 'active' : ''}"><i
                 class="fa fa-home text-white"></i><span
                 class="d-none d-xl-inline-block wd-padding-left-side text-white">Home</span></a>
-            <a href="../explore/index.html" class="list-group-item list-group-item-action 
+            <a href="../explore-previous/index.html" class="list-group-item list-group-item-action 
                 ${active === 'explore' ? 'active' : ''}" aria-current="true"><i
                 class="fa fa-solid fa-hashtag text-white"></i><span
                 class="d-none d-xl-inline-block wd-padding-left-side text-white">Explore</span></a>

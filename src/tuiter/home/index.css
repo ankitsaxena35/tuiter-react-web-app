@@ -1,0 +1,13 @@
+.wd-border-right {
+    border-right-style: solid;
+}
+
+.wd-border-color{
+    border-color: #4f5050 !important;
+    border: 1px solid;
+}
+
+.wd-border-bottom{
+    border-color: #4f5050 !important;
+    border-bottom-style: solid;
+}
