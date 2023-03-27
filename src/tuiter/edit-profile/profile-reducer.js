@@ -10,6 +10,6 @@ const profileSlice = createSlice({
         }
     }
 });
-
 export const {saveProfile} = profileSlice.actions;
+
 export default profileSlice.reducer;
