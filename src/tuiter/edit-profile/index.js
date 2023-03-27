@@ -12,23 +12,29 @@ const EditProfile = () => {
     const save = () => {
         dispatch(saveProfile(updatedProfile));
     }
-    const nameOnChangeHandler = (value) => {
-        const arrSplit = value.split(" ");
+
+    const nameOnChangeHandler = (data) => {
+        const arrSplit = data.split(" ");
         updatedProfile.firstName = arrSplit[0]
         updatedProfile.lastName = arrSplit[1]
     }
-    const bioOnChangeHandler = (value) => {
-        updatedProfile.bio=value;
-    }
-    const locationOnChangeHandler = (value) => {
-        updatedProfile.location=value;
-    }
-    const websiteOnChangeHandler = (value) => {
-        updatedProfile.website=value;
+
+    const bioOnChangeHandler = (data) => {
+        updatedProfile.bio=data;
     }
 
-    const dateOnChangeHandler = (value) => {
-        updatedProfile.dateOfBirth=value;
+
+    const locationOnChangeHandler = (data) => {
+        updatedProfile.location=data;
+    }
+
+
+    const websiteOnChangeHandler = (data) => {
+        updatedProfile.website=data;
+    }
+
+    const dateOfBirthOnChangeHandler = (data) => {
+        updatedProfile.dateOfBirth=data;
     }
 
     return (
@@ -72,7 +78,7 @@ const EditProfile = () => {
             <div className="wd-div">
                 <label for="date" className="text-muted">Date of Birth</label><br/>
                 <input id="date" onChange={(event) => {
-                    dateOnChangeHandler(event.target.value);
+                    dateOfBirthOnChangeHandler(event.target.value);
                 }} type="date" className="form-control wd-input bg-transparent" defaultValue={profile.dateOfBirth}></input>
             </div>
             <div className="wd-div">
