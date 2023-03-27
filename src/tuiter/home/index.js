@@ -1,15 +1,17 @@
 import React from 'react';
 
 import './index.css';
-import NavigationSidebar from "../navigation-sidebar";
-import PostItems from "../post-list";
-import PostSummaryList from "../post-summary-list";
+import TuitsList from "../tuits/TuitsList";
+import WhatsHappening from "./whats-happening";
 
 const active='home';
 const HomeScreen = () => {
     return (
         <>
-            <PostItems/>
+            <h4>Home</h4>
+            <WhatsHappening/>
+            <TuitsList/>
+
         </>
     );
 }

@@ -4,11 +4,11 @@ import postItems from "./posts.js";
 const PostItems = () => {
     return(
     <>
-        {
-        postItems.map(items => {
-            return(<PostItem post={items}/>);
-        })
-    }
+    {/*    {*/}
+    {/*    postItems.map(items => {*/}
+    {/*        return(<PostItem post={items}/>);*/}
+    {/*    })*/}
+    {/*}*/}
     </>
 
     
