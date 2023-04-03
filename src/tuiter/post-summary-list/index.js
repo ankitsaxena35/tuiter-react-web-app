@@ -5,7 +5,9 @@ import PostSummaryItem
     from "./post-summary-item";
 
 const PostSummaryList = () => {
-    const postsArray = useSelector(state => state.tuits)
+    const postData = useSelector(
+        state => state.tuits);
+    const postsArray = postData.tuits
     return(
         <ul className="list-group">
             {
